@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Art.css">
+    <title>Art</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <a href="index.html"> <img src="Images/logo.png" alt="logo"> </a>
+            
+            <ul class="sidebar">
+                <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="Art.html">Art</a></li>
+                <li><a href="Illustration.html">Illustration</a></li>
+                
+               
+            </ul>
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="Art.html">Art</a></li>
+                <li><a href="Illustration.html">Illustration</a></li>
+                
+            </ul>
+
+            
+
+          
+
+           
+                <li onclick="showSidebar()" class="menu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            
+
+            <!-- <i class="fas fa-search"></i> -->
+           
+        </nav>
+    </header>
+
+
+    <h1>Art</h1>
+
+
+    <section>
+        <div class="image-1 image-padding">
+            <img src="Images/Art-3.jpg" alt="">
+            <p>Bamboo garden - Acrylic on canvas</p>
+        </div>
+
+        <div class="image-1 image-padding">
+            <img src="Images/Art-2.jpg" alt="">
+            <p>Ghibli style - Acrylic on canvas</p>
+        </div>
+
+        <div class="image-1 image-padding">
+            <img src="Images/Art-1.jpg" alt="">
+            <p>Ghibli style - Acrylic on canvas</p>
+        </div>
+
+        
+
+        
+        <div class="image-1 image-padding">
+            <img src="Images/Art-4.jpg" alt="">
+            <p>Starry night - Acrylic on canvas</p>
+        </div>
+
+        
+
+        <!-- <div class="image-1 image-padding">
+            <img src="Images/moon-01.png" alt="">
+            <p>Today's moon as lovely as her - Digital</p>
+        </div> -->
+
+        
+    </section>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <section class="join"><a href="Contact.html">Contact</a></section>
+        <p class="copyright">My life &copy; 2024. Powered by me</p>
+    </footer>
+</body>
+
+<script>
+    function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+
+    function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+   </script>
+
+</html>
